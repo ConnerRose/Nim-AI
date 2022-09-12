@@ -1,8 +1,12 @@
-# nim-ai
+# Nim-AI
 
 ![Version](https://img.shields.io/badge/version-1.0.0--beta-blue.svg?cacheSeconds=2592000)
 
 > Play a game of nim against an AI trained with Q-learning.
+
+[Nim](https://en.wikipedia.org/wiki/Nim) is a game wherein two players take turns picking objects from piles with the goal to force the other player to pick the last object. On their turn, a player can pick one or several from a single pile. The players take turns picking objects from the piles until there are none remaining. The last player who picked loses.
+
+[Q-learning](https://en.wikipedia.org/wiki/Q-learning) is a variety of reinforcement learning where an agent learns the value of an action in a particular state. This is acheived by a reward system which can be modified by variables α and ε, which impact how quickly the agent makes changes to its knowledge base and how random these changes are, respectively.
 
 ## Install
 
@@ -15,7 +19,7 @@ Or download `nim_ai.exe` from https://github.com/ConnerRose/nim-ai/releases/tag/
 ## Usage
 
 ```sh
-$ ./nim-ai.exe
+$ ./nim_ai.exe
 ```
 
 | Option                                            | Description                          | Type    | Default        | Required? |
