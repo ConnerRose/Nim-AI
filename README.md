@@ -10,6 +10,8 @@
 $ wget https://github.com/ConnerRose/nim-ai/releases/download/v1.0-beta/nim_ai.exe
 ```
 
+Or download `nim_ai.exe` from https://github.com/ConnerRose/nim-ai/releases/tag/v1.0-beta.
+
 ## Usage
 
 ```sh
