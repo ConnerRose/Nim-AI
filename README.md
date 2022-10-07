@@ -19,7 +19,7 @@ Or download `nim_ai.exe` from https://github.com/ConnerRose/nim-ai/releases/tag/
 ## Usage
 
 ```sh
-$ ./nim_ai.exe
+$ ./nim_ai.exe [-h] [-n NUM_GAMES] [-a ALPHA] [-e EPSILON] [-p PILES [PILES ...]]
 ```
 
 | Option                                            | Description                          | Type    | Default        | Required? |
